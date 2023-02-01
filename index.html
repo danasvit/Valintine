@@ -1,0 +1,97 @@
+<!Doctype html>
+<html lang="lt">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Valentino Diena</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            text-align: center;
+            padding: 50px;
+            line-height: 30px;
+            font-size: 20px;
+        }
+        h1{
+            margin: 50px;
+            
+        }
+        button{
+            width: 200px;
+            height: 80px;
+            background-color: crimson;
+            color: white;
+            border: 3px solid white;
+            box-shadow: 2px 2px 10px violet;
+            font-size: 20px;
+            margin: 20px;
+            border-radius: 10px;
+        }
+        button: hover{
+            box-shadow: none;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1 id="h1">Valentino diena</h1>
+    
+    <p id="p">How do I love thee? Let me count the ways.<br>
+
+I love thee to the depth and breadth and height<br>
+
+My soul can reach, when feeling out of sight<br>
+
+For the ends of Being and ideal Grace.<br>
+
+I love thee to the level of every day's<br>
+
+Most quiet need, by sun and candlelight.<br>
+
+I love thee freely, as men strive for Right;<br>
+
+I love thee purely, as they turn from Praise.<br>
+
+I love with a passion put to use<br>
+
+In my old griefs, and with my childhood's faith.<br>
+
+I love thee with a love I seemed to lose<br>
+
+With my lost saints,—I love thee with the breath,<br>
+
+Smiles, tears, of all my life!—and, if God choose,<br>
+    </p>
+    
+    <button onclick="fonas();" id="but">Spausti</button>
+    
+    <script>
+        function fonas(){
+            document.body.style.backgroundImage ='url(iWonder.jpg)';
+            document.getElementById('h1').style.color = 'darkred';
+            document.getElementById('p').style.color = 'green';
+            document.getElementById('h1').style.fontFamily = 'Dancing Script';
+            document.getElementById('h1').style.fontSize = '70px';
+            document.getElementById('p').style.fontSize = '20px';  
+            document.getElementById('p').style.textShadow = '1px 1px  red'; 
+            document.getElementById('h1').style.textShadow = '1px 1px  green'; 
+            document.getElementById('but').style.color = 'green';
+            document.getElementById('but').style.fontFamily = 'Dancing Script';
+            document.getElementById('but').style.fontSize = '40px';
+        };
+        
+        
+        
+      
+    </script>
+    
+</body>
+
+
+</html>
